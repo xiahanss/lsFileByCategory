@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>选项卡式导航</title>
+	<link rel="stylesheet" type="text/css" href="css/texiao.css" />
+	<style type="text/css">
+		<!--
+		* {
+			margin: 0; padding:0
+		}
+		body {
+			margin-top: 10px;
+			margin-right: auto;
+			margin-bottom: 10px;
+			margin-left: auto;
+			text-align: center;
+			height: auto;
+			width: auto;
+			background-color: #666666;
+			font-size: 12px;
+			color: #000000;
+		}
+
+	-->
+</style>
+<script language="javascript">
+	function switchTag(tag,content)
+	{
+		//	alert(tag);
+		//	alert(content);
+		for(i=1; i <6; i++)
+		{
+			if ("tag"+i==tag)
+			{
+				document.getElementById(tag).getElementsByTagName("a")[0].className="selectli"+i;
+				document.getElementById(tag).getElementsByTagName("a")[0].getElementsByTagName("span")
+				[0].className="selectspan"+i;
+			}else{
+				document.getElementById("tag"+i).getElementsByTagName("a")[0].className="";
+				document.getElementById("tag"+i).getElementsByTagName("a")[0].getElementsByTagName("span")
+				[0].className="";
+			}
+			if ("content"+i==content)
+			{
+				document.getElementById(content).className="";
+			}else{
+				document.getElementById("content"+i).className="hidecontent";
+			}
+			document.getElementById("content").className=content;
+		}
+	}
+	function drawTab()
+	{
+				//<li id="tag1"><a href="#" onclick="switchTag('tag1','content1');this.blur();" class="selectli1"><span class="selectspan1">首页</span></a></li>
+				//<li id="tag2"><a href="#" onclick="switchTag('tag2','content2');this.blur();"><span>下载中心</span></a></li>
+				//<li id="tag3"><a href="#" onclick="switchTag('tag3','content3');this.blur();"><span>产品介绍</span></a></li>
+				//<li id="tag4"><a href="#" onclick="switchTag('tag4','content4');this.blur();"><span>会员注册与登录</span></a></li>
+				//<li id="tag5"><a href="#" onclick="switchTag('tag5','content5');this.blur();"><span>联系我们</span></a></li>
+		var hts = '';
+		var tn = new Array("1", "2", "3", "4", "5")
+		var maxSize = 10;
+		for(var i=1; i<=maxSize; i++)
+		{
+			hts+='<li id="tag'+i+'"><a href="#" onclick="switchTag(\'tag'+i+'\',\'content'+i+'\');this.blur();"><span>'+i+'</span></a></li>'
+		}
+		document.getElementById('title').innerHTML = hts;
+	}
+	function showData()
+	{
+		var hts2='';
+		var maxSize = 10;
+		for(var i=1; i<=maxSize; i++)
+		{
+			if (i==1)
+				hts2 += '<div id="content1"><p>仿淘宝网站的导航效果。此方法有几个优点：</p>1、根据字数自适应项目长度</div>'
+			else
+				hts2 += '<div id="content'+i+'" class="hidecontent">'+i+'</div>'
+		}
+		document.getElementById('content').innerHTML = hts2;
+	}
+</script>
+</head>
+<body>
+	<div id="container">
+		<div id="title">
+			<ul>
+				<script type="text/javascript">drawTab();</script>
+			</ul>
+			</div>
+			<div id="content" class="content0">
+				<!--div id="content1"><p>仿淘宝网站的导航效果。此方法有几个优点：</p>1、根据字数自适应项目长度</div>
+				<div id="content2" class="hidecontent">2、不同的项目使用不同的颜色来区分</div>
+				<div id="content3" class="hidecontent">3、这回需要使用到js了，呵呵</div>
+				<div id="content4" class="hidecontent">4、背景图片只需要两个图片文件就足够，减少服务器负担</div>
+				<div id="content5" class="hidecontent">5、这是使用到的两个图片：
+					<table width="58%" border="1" cellspacing="2" cellpadding="0">
+						<tr>
+							<td width="70%" align="center"><img src="texiao/tab_selected_left_bk2.gif" width="250" height="290" /></td>
+							<td width="30%" align="center"><img src="texiao/tab_selected_right_bk2.gif" width="15" height="290" /></td>
+						</tr>
+					</table>
+				</div-->
+				<script type="text/javascript">showData();</script>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,448 @@
+#container {
+text-align: left;
+width: 760px;
+height: 400px;
+background-color: #FFFFFF;
+padding: 20px;
+}
+#container #title {
+height: 28px;
+}
+#container #title li {
+float: left;
+list-style-type: none;
+height: 28px;
+line-height: 28px;
+text-align: center;
+margin-right: 1px;
+}
+#container #title ul {
+background-color: #FFFFFF;
+height: 28px;
+}
+#container #title a {
+text-decoration: none;
+color: #000000;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -29px;
+}
+#container #title a span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -29px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag1 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left 0px;
+}
+#container #title #tag1 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right 0px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag2 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -29px;
+}
+#container #title #tag2 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -29px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag3 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -58px;
+}
+#container #title #tag3 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -58px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag4 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -87px;
+}
+#container #title #tag4 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -87px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag5 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -116px;
+}
+#container #title #tag5 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -116px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag6 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -145px;
+}
+#container #title #tag6 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -145px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag7 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -174px;
+}
+#container #title #tag7 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -174px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag8 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -203px;
+}
+#container #title #tag8 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -203px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag9 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -232px;
+}
+#container #title #tag9 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -232px;
+padding: 0 15px 0 15px;
+}
+#container #title #tag10 a:hover {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -261px;
+}
+#container #title #tag10 a:hover span{
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -261px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli1 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left 0px;
+}
+#container #title a .selectspan1 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right 0px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli2 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -29px;
+}
+#container #title a .selectspan2 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -29px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli3 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -58px;
+}
+#container #title a .selectspan3 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -58px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli4 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -87px;
+}
+#container #title a .selectspan4 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -87px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli5 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -116px;
+}
+#container #title a .selectspan5 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -116px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli6 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -145px;
+}
+#container #title a .selectspan6 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -145px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli7 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -174px;
+}
+#container #title a .selectspan7 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -174px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli8 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -203px;
+}
+#container #title a .selectspan8 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -203px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli9 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -232px;
+}
+#container #title a .selectspan9 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -232px;
+padding: 0 15px 0 15px;
+}
+#container #title .selectli10 {
+text-decoration: none;
+color: #ffffff;
+display: block;
+width: auto;
+background: url(../texiao/tab_selected_left_bk2.gif) no-repeat left -261px;
+}
+#container #title a .selectspan10 {
+display: block;
+background: url(../texiao/tab_selected_right_bk2.gif) no-repeat right -261px;
+padding: 0 15px 0 15px;
+}
+#container #content ul {margin: 10px;}
+#container #content li {margin: 5px; }
+#container #content li img {margin: 5px;display:block;}
+#container #content {
+height: 300px;
+padding: 10px;
+}
+.content1 {
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #3A81C8;
+border-right-color: #3A81C8;
+border-bottom-color: #3A81C8;
+border-left-color: #3A81C8;
+background-color: #DFEBF7;
+}
+.content2 {
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #ff950b;
+border-right-color: #ff950b;
+border-bottom-color: #ff950b;
+border-left-color: #ff950b;
+background-color: #FFECD2;
+}
+.content3 {
+height: 300px;
+padding: 10px;
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #FE74B8;
+border-right-color: #FE74B8;
+border-bottom-color: #FE74B8;
+border-left-color: #FE74B8;
+background-color: #FFECF5;
+}
+.content4 {
+height: 300px;
+padding: 10px;
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #00988B;
+border-right-color: #00988B;
+border-bottom-color: #00988B;
+border-left-color: #00988B;
+background-color: #E8FFFD;
+}
+.content5 {
+height: 300px;
+padding: 10px;
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #A8BC1F;
+border-right-color: #A8BC1F;
+border-bottom-color: #A8BC1F;
+border-left-color: #A8BC1F;
+background-color: #F7FAE2;
+}
+.content6 {
+height: 300px;
+padding: 10px;
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #A8BC1F;
+border-right-color: #A8BC1F;
+border-bottom-color: #A8BC1F;
+border-left-color: #A8BC1F;
+background-color: #F7FAE2;
+}
+.content7 {
+height: 300px;
+padding: 10px;
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #A8BC1F;
+border-right-color: #A8BC1F;
+border-bottom-color: #A8BC1F;
+border-left-color: #A8BC1F;
+background-color: #F7FAE2;
+}
+.content8 {
+height: 300px;
+padding: 10px;
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #A8BC1F;
+border-right-color: #A8BC1F;
+border-bottom-color: #A8BC1F;
+border-left-color: #A8BC1F;
+background-color: #F7FAE2;
+}
+.content9 {
+height: 300px;
+padding: 10px;
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #A8BC1F;
+border-right-color: #A8BC1F;
+border-bottom-color: #A8BC1F;
+border-left-color: #A8BC1F;
+background-color: #F7FAE2;
+}
+.content10 {
+height: 300px;
+padding: 10px;
+border-top-width: 3px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #A8BC1F;
+border-right-color: #A8BC1F;
+border-bottom-color: #A8BC1F;
+border-left-color: #A8BC1F;
+background-color: #F7FAE2;
+}
+.hidecontent {display:none;}
